@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 import java.util.List;
 
-@FeignClient(url = "http://jsonplaceholder.typicode.com/", name = "USERS-CLIENT")
+@FeignClient(url = "https://jsonplaceholder.typicode.com/", name = "USERS-CLIENT")
 public interface UserClient {
 
     @GetMapping("/users")
